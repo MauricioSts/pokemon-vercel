@@ -1,0 +1,173 @@
+/* Reset básico e estilos globais */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 10px;
+  background-color: #da2a2a;
+  color: aliceblue;
+}
+
+.div-img {
+  margin-right: auto; 
+  height: 70px;
+  width: 70px;
+  padding-left: 10px;
+}
+
+img {
+  max-width: 70px;
+  height: 70px;
+}
+
+h1 {
+  text-align: center; 
+  margin: 0; 
+  flex: 1; 
+}
+
+/* Estilos para a navegação */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  flex: 1;
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+  color: red;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+  padding: 20px;
+}
+
+/* Estilos para os blocos de conteúdo */
+.conteudos, .tipos {
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.conteudos h2 {
+  padding-left: 20px;
+}
+
+.conteudos p {
+  padding: 0 20px;
+}
+
+/* Estilos para a lista de Pokémon */
+.pokemon-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pokemon-list ul li {
+  margin-bottom: 10px;
+}
+
+.pokemon-list ul li a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #333;
+}
+
+.pokemon-list ul li a:hover {
+  background-color: #ccc;
+}
+
+/* rodapé */
+
+footer {
+  background-color: #333;
+  color: #FFFFFF;
+  padding: 24px;
+  text-align: center;
+ 
+}
+
+footer a {
+  color: red;
+}
+
+/* tipos */
+
+.tipos {
+  padding: 20px;
+}
+
+.tipos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tipos ul li {
+  margin-bottom: 10px;
+}
+
+.tipos ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+  padding: 8px 0;
+}
+
+.tipos input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* botão estilos */
+
+.tipos input[type="submit"] {
+  background-color: #333; 
+  color: white; 
+  padding: 20px 40px; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  width: 100%; 
+  margin: 20px 0; 
+  box-sizing: border-box; 
+  text-align: center; 
+  font-size: large;
+}
+
+.tipos input[type="submit"]:hover {
+  background-color: #111;
+  color: red;
+}
